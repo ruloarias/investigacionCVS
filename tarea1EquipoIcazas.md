@@ -16,10 +16,18 @@ Este comando es una variante de checkout, es usado cuando quieres una copia de l
 
 A menudo se le gustaría usar '-kv' con cvs export. Esto hace que cualquier palabra clave que se amplie de tal manera que al importarla a algún otro sitio no se pierdan las palabas clave en la revisión de la información.Pero tenga en cuenta que no maneja una exportación que contiene los archivos binarios correctamente.También tenga en cuenta que después de haber usado '-kv', Ya no se puede usar el comando **ident**(que es parte de la suite RCS), que busca cadenas de palabras clave. Si usted quiere ser capaz de utilizar **ident** no debe usar '-kv'.
 
+#####history- Muestra el status de archivos y usuarios#####
+
+- *Sintaxis*: history [-report] [-flags] [-options args] [files…]
 
 
+- *Requerimientos*: el archivo ‘$CVSROOT/CVSROOT/history’
 
+CVS puede mantener un archivo histórico que rastrea cada uso de checkout, commit, rtag, update, y comandos release. Puede usar history para mostrar esta información en varios formatos.
 
+Loggin debería estar habilitado para la creación del archivo ‘$CVSROOT/CVSROOT/history’.
+
+history usa ‘-f’, ‘-l’, ‘-n’, and ‘-p’ de manera que entra en conflicto con el uso normal dentro de CVS.
 
 
 
