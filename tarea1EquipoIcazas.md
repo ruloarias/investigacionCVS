@@ -96,7 +96,7 @@ El comando remove se utiliza para eliminar archivos no deseados de su uso activo
 El comando remove no elimina archivos desde el repositorio. CVS mantiene todos los datos históricos en el repositorio de manera que es posible reconstruir los estados anteriores de los proyectos bajo control de revisión.   
 Para deshacer el comadno remove CVS  ó para resucitar los archivos que se han eliminado previamente, consulte la Sección complemento Agregar archivos y directorios en el repositorio.    
 
-#### update - trae el árbol de trabajo en sincronizació con  el repositorio.
+#### update - trae el árbol de trabajo en sincronización con  el repositorio.
 
 	update [-ACdflPpR] [-I name] [-j rev [-j rev]] [-k kflag] [-r tag|-D date] [-W spec] files…
 
