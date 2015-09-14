@@ -103,7 +103,7 @@ Para deshacer el comadno remove CVS  ó para resucitar los archivos que se han e
 *Requerimientos*: repositorio, directorio de trabajo.    
 *Cambios*: directorio de trabajo.
 
-Después de ejecutar un chckout para crear su copia privada de la fuente desde el repositorio común, otros desarrolladores continuarán cambiando la fuente central. De vez en cuando, cuando sea conveniente en su proceso de desarrollo, puede utilizar el comando **update** desde dentro de su directorio de trabajo para conciliar su trabajo con las revisiones aplicadas al repositorio de código fuente desde el último checkout ó update.
+Después de ejecutar un checkout para crear su copia privada de la fuente desde el repositorio común, otros desarrolladores continuarán cambiando la fuente central. De vez en cuando, cuando sea conveniente en su proceso de desarrollo, puede utilizar el comando **update** desde dentro de su directorio de trabajo para conciliar su trabajo con las revisiones aplicadas al repositorio de código fuente desde el último checkout ó update.
 
 
 
